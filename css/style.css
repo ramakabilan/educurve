@@ -1,0 +1,205 @@
+.col-1{
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+    padding-inline-end: 20px;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  body{
+      font-family: cursive;
+  }
+  .back-c{
+      background-color: antiquewhite;
+  }
+  .head-sec{
+      display: flex;
+      justify-content: right;
+      margin: auto;
+      padding: 12px 0px;
+  }
+  .top_strip li{
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 17px;
+  }
+  .top_strip li a{
+      text-decoration: none;
+      color: black;
+  }
+  .top_strip li i{
+      font-size: 22px;
+  }
+
+.ico{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.menu li{
+    display: inline-block;
+    padding: 18px 22px;
+    font-size: 20px;
+}
+.menu li a{
+    text-decoration: none;
+}
+.head-sec1{
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    padding: 12px 0px;
+}
+.head-sec1 a{
+  text-decoration: none;
+  color: black;
+}
+.sec-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-flex h1{
+    text-align: center;
+}
+.sec-flex h1 a{
+    text-decoration: none;
+    color: black;
+}
+.sec-flex img{
+    border-radius: 25px;
+}
+.sec-flex p{
+    font-size: 19px;
+    text-align: justify;
+}
+.list{
+    margin: 90px auto;
+}
+.list li{
+    padding: 20px;
+    border: 1px solid white;
+    background-color: aquamarine;
+    margin: 20px auto;
+    list-style: none;
+    text-align: center;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.list li a{
+   text-decoration: none;
+   font-size: 20px;
+   padding: 25px;
+}
+.foo_ter{
+  margin: auto;
+    padding: 12px 0px;
+}
+.foo_ter h1{
+   text-align: center;
+}
+.foo_ter p{
+  padding: 18px 164px;
+  text-align: center;
+}
+.bottom-strip{
+  text-align: center;
+}
+.bottom-strip a{
+  text-decoration: none;
+}
+.head-sec1 a{
+  padding: 20px 0px;
+}
+
+
+/* math style start here */
+
+
+.grid {
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px 50px 50px 50px;
+  border: 2px solid #cbcbcb;
+  
+}
+
+.grid h1 {
+  font-family: "sans-serif";
+  background-color: #cf892c;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+  padding: 2px 0px;
+  
+}
+
+#score {
+  color: #d9184e;
+  text-align: center;
+  font-size: 30px;
+}
+
+.grid #question {
+  font-family: "monospace";
+  font-size: 30px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+  background-color: #fad7e4;
+  width: 250px;
+  font-size: 20px;
+  color: black;
+  border: 1px solid #1D3C6A;
+  margin: 10px 40px 10px 136px;
+  padding: 10px 10px;
+  
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+  cursor: pointer;
+  background-color: #d7faeb;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+  outline: 0;
+}
+
+#progress {
+  color: #2b2b2b;
+  font-size: 18px;
+  text-align: center;
+}
